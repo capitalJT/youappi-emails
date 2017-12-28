@@ -1,14 +1,4 @@
-@import 'components/ai-typography';
-@import 'components/ai-header';
-@import 'components/ai-forward';
-@import 'components/ai-social';
-@import 'components/ai-footer';
-@import 'components/ai-event';
-@import 'components/ai-banner';
-
-@import 'components/ai-live-email-sponsor';
-
-@import 'components/ai-hero';
+@import 'components';
 
 .text-cta{
   p{
@@ -120,13 +110,6 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
 
-}
-
-
-h1{
-  @media only screen and (min-width: 480px) {
-    text-align: left !important;
-  }
 }
 
 .email-title-section{

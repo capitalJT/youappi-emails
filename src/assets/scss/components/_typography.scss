@@ -1,14 +1,6 @@
 @media all {
   @font-face{
-    font-family:'Conv_MuseoSans_100';
-    src: url('http://resources.adaptiveinsights.com/font/MuseoSans_100.woff'), url('http://resources.adaptiveinsights.com/font/MuseoSans_100.eot');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face{
-    font-family:'Conv_MuseoSans_500';
-    src: url('http://resources.adaptiveinsights.com/font/MuseoSans_500.woff'), url('http://resources.adaptiveinsights.com/font/MuseoSans_500.eot');
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
   }
@@ -22,17 +14,15 @@
   }
 }
 
+//h1,h2,h3,h4,h5,h6 {}
+h1,h2,h3,h4,h5,h6 { 
+  line-height: $header-line-height;
+  color: $dark-gray;
+}
+
 strong, b, strong a, b a {
   font-family: $strong-font-family !important;
   font-weight: $strong-font-weight !important;
-}
-
-h1,h2,h3,h4,h5,h6 { 
-  line-height: $header-line-height;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  color: $dark-gray;
 }
 
 table.text-center, 
@@ -49,7 +39,10 @@ span.text-center{
   text-align: center !important;
 }
 
-
+h1,h2,h3,h4,h5,h6{
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+}
 
 h1.primary{
   color: $primary-color;
@@ -58,6 +51,12 @@ h1.primary{
 h1.secondary{
   color: $secondary-color;
 }
+
+//h1{
+//  @media only screen and (min-width: 480px) {
+//    text-align: left !important;
+//  }
+//}
 
 h2.primary{
   color: $primary-color;
