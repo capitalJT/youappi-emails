@@ -1,0 +1,103 @@
+@media all {
+  @font-face{
+    font-family:'Conv_MuseoSans_100';
+    src: url('http://resources.adaptiveinsights.com/font/MuseoSans_100.woff'), url('http://resources.adaptiveinsights.com/font/MuseoSans_100.eot');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face{
+    font-family:'Conv_MuseoSans_500';
+    src: url('http://resources.adaptiveinsights.com/font/MuseoSans_500.woff'), url('http://resources.adaptiveinsights.com/font/MuseoSans_500.eot');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@media screen and (min-device-width: 1px) {
+  a[href^=tel],
+  a[href^="x-apple-data-detectors:"]{ 
+    color:inherit !important; 
+    text-decoration:none !important;
+  }
+}
+
+strong, b, strong a, b a {
+  font-family: $strong-font-family !important;
+  font-weight: $strong-font-weight !important;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+  line-height: $header-line-height;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $dark-gray;
+}
+
+table.text-center, 
+th.text-center, 
+td.text-center, 
+h1.text-center, 
+h2.text-center, 
+h3.text-center, 
+h4.text-center, 
+h5.text-center, 
+h6.text-center, 
+p.text-center, 
+span.text-center{
+  text-align: center !important;
+}
+
+
+
+h1.primary{
+  color: $primary-color;
+}
+
+h1.secondary{
+  color: $secondary-color;
+}
+
+h2.primary{
+  color: $primary-color;
+}
+
+h2.secondary{
+  color: $secondary-color;
+}
+
+h3.primary{
+  color: $primary-color;
+}
+
+h3.secondary{
+  color: $secondary-color;
+}
+
+p.dark-gray {
+  color: $dark-gray;
+}
+
+p.medium-gray {
+  color: $medium-gray;
+}
+
+p.primary-color {
+  color: $primary-color;
+}
+
+p.secondary-color {
+  color: $secondary-color;
+}
+
+a.text-button{
+  padding: 5px 15px;
+  border: solid thin #eee;
+  border-radius: $global-radius;
+}
+
+p.small{
+  font-size: 12px;
+  line-height: 16px;
+}

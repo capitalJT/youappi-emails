@@ -1,0 +1,29 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'ai-styles';
+
+.button{
+	background-color: #eee;
+	padding: 15px 20px;
+	display:inline-block;
+	margin-bottom: 10px;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-weight:500;
+	border-radius:4px;
+}
+.button.black{
+	background-color: #000;
+	color:white;
+}
+.card-image img{
+	display: block;
+	margin: 10px auto;
+}
+.card-image .card-title a{
+	color:#444444;
+	text-decoration: none;
+}
+.email-navigation a{
+	text-transform: uppercase;
+}

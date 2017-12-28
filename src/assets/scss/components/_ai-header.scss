@@ -1,0 +1,19 @@
+.row.header {
+  // background-color: pink;
+  // border: solid thin red;
+  th.columns{
+    padding: $global-padding;
+  }
+  .logo{
+    width: 160px;
+    max-width: 160px;
+    height: 54px;
+  }
+}
+
+.row.header.alt {
+  background-color: $primary-color;
+  small{
+    color: white;  
+  }
+}

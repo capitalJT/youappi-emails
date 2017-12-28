@@ -1,0 +1,137 @@
+@import 'components/ai-typography';
+@import 'components/ai-header';
+@import 'components/ai-forward';
+@import 'components/ai-social';
+@import 'components/ai-footer';
+@import 'components/ai-event';
+@import 'components/ai-banner';
+
+@import 'components/ai-live-email-sponsor';
+
+@import 'components/ai-hero';
+
+.text-cta{
+  p{
+    margin-bottom: 0;
+  }
+  a{
+    text-transform: uppercase;
+    font-size: $h5-font-size;
+    padding: 5px 15px;
+  }
+}
+
+.callout{
+  color: #ffffff;
+  th, td{
+    color: #ffffff;
+  }
+  th.small-12{
+    // padding-left:0;
+    // padding-right:0;
+  }
+}
+
+.email-forward, .email-forward p{
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.follow-us-heading{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500px;
+}
+.follow-us{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 42px;
+
+  a, li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    margin-right: 5px;
+  }
+}
+
+
+.wrapper-inner {
+  padding-top: $global-gutter;
+  padding-bottom: $global-gutter;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.callout p,
+.callout p small,
+.callout p small a {
+  color: $white;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 0 20px;
+}
+
+table {
+  &.row {
+    border-top: none;
+    border-bottom: none;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+
+h1{
+  @media only screen and (min-width: 480px) {
+    text-align: left !important;
+  }
+}
+
+.email-title-section{
+  h1, h2{
+    text-align: center;
+    border: solid thin 1px #eee;
+  }
+}
